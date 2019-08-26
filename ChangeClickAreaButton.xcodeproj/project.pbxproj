@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009F9CB3231364FF002820D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F9CB2231364FF002820D3 /* AppDelegate.m */; };
+		009F9CB6231364FF002820D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F9CB5231364FF002820D3 /* ViewController.m */; };
+		009F9CB9231364FF002820D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009F9CB7231364FF002820D3 /* Main.storyboard */; };
+		009F9CBB23136501002820D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009F9CBA23136501002820D3 /* Assets.xcassets */; };
+		009F9CBE23136501002820D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009F9CBC23136501002820D3 /* LaunchScreen.storyboard */; };
+		009F9CC123136501002820D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F9CC023136501002820D3 /* main.m */; };
+		009F9CCB23136501002820D3 /* ChangeClickAreaButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F9CCA23136501002820D3 /* ChangeClickAreaButtonTests.m */; };
+		009F9CD623136501002820D3 /* ChangeClickAreaButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F9CD523136501002820D3 /* ChangeClickAreaButtonUITests.m */; };
+		009F9CE523136536002820D3 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F9CE423136536002820D3 /* CustomButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009F9CC723136501002820D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009F9CA6231364FF002820D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009F9CAD231364FF002820D3;
+			remoteInfo = ChangeClickAreaButton;
+		};
+		009F9CD223136501002820D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009F9CA6231364FF002820D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009F9CAD231364FF002820D3;
+			remoteInfo = ChangeClickAreaButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009F9CAE231364FF002820D3 /* ChangeClickAreaButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeClickAreaButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009F9CB1231364FF002820D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		009F9CB2231364FF002820D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		009F9CB4231364FF002820D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		009F9CB5231364FF002820D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		009F9CB8231364FF002820D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009F9CBA23136501002820D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		009F9CBD23136501002820D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		009F9CBF23136501002820D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009F9CC023136501002820D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		009F9CC623136501002820D3 /* ChangeClickAreaButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeClickAreaButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009F9CCA23136501002820D3 /* ChangeClickAreaButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeClickAreaButtonTests.m; sourceTree = "<group>"; };
+		009F9CCC23136501002820D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009F9CD123136501002820D3 /* ChangeClickAreaButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeClickAreaButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009F9CD523136501002820D3 /* ChangeClickAreaButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeClickAreaButtonUITests.m; sourceTree = "<group>"; };
+		009F9CD723136501002820D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009F9CE323136536002820D3 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		009F9CE423136536002820D3 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009F9CAB231364FF002820D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009F9CC323136501002820D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009F9CCE23136501002820D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009F9CA5231364FF002820D3 = {
+			isa = PBXGroup;
+			children = (
+				009F9CB0231364FF002820D3 /* ChangeClickAreaButton */,
+				009F9CC923136501002820D3 /* ChangeClickAreaButtonTests */,
+				009F9CD423136501002820D3 /* ChangeClickAreaButtonUITests */,
+				009F9CAF231364FF002820D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009F9CAF231364FF002820D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009F9CAE231364FF002820D3 /* ChangeClickAreaButton.app */,
+				009F9CC623136501002820D3 /* ChangeClickAreaButtonTests.xctest */,
+				009F9CD123136501002820D3 /* ChangeClickAreaButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009F9CB0231364FF002820D3 /* ChangeClickAreaButton */ = {
+			isa = PBXGroup;
+			children = (
+				009F9CB1231364FF002820D3 /* AppDelegate.h */,
+				009F9CB2231364FF002820D3 /* AppDelegate.m */,
+				009F9CE323136536002820D3 /* CustomButton.h */,
+				009F9CE423136536002820D3 /* CustomButton.m */,
+				009F9CB4231364FF002820D3 /* ViewController.h */,
+				009F9CB5231364FF002820D3 /* ViewController.m */,
+				009F9CB7231364FF002820D3 /* Main.storyboard */,
+				009F9CBA23136501002820D3 /* Assets.xcassets */,
+				009F9CBC23136501002820D3 /* LaunchScreen.storyboard */,
+				009F9CBF23136501002820D3 /* Info.plist */,
+				009F9CC023136501002820D3 /* main.m */,
+			);
+			path = ChangeClickAreaButton;
+			sourceTree = "<group>";
+		};
+		009F9CC923136501002820D3 /* ChangeClickAreaButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				009F9CCA23136501002820D3 /* ChangeClickAreaButtonTests.m */,
+				009F9CCC23136501002820D3 /* Info.plist */,
+			);
+			path = ChangeClickAreaButtonTests;
+			sourceTree = "<group>";
+		};
+		009F9CD423136501002820D3 /* ChangeClickAreaButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009F9CD523136501002820D3 /* ChangeClickAreaButtonUITests.m */,
+				009F9CD723136501002820D3 /* Info.plist */,
+			);
+			path = ChangeClickAreaButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		009F9CAD231364FF002820D3 /* ChangeClickAreaButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009F9CDA23136501002820D3 /* Build configuration list for PBXNativeTarget "ChangeClickAreaButton" */;
+			buildPhases = (
+				009F9CAA231364FF002820D3 /* Sources */,
+				009F9CAB231364FF002820D3 /* Frameworks */,
+				009F9CAC231364FF002820D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeClickAreaButton;
+			productName = ChangeClickAreaButton;
+			productReference = 009F9CAE231364FF002820D3 /* ChangeClickAreaButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009F9CC523136501002820D3 /* ChangeClickAreaButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009F9CDD23136501002820D3 /* Build configuration list for PBXNativeTarget "ChangeClickAreaButtonTests" */;
+			buildPhases = (
+				009F9CC223136501002820D3 /* Sources */,
+				009F9CC323136501002820D3 /* Frameworks */,
+				009F9CC423136501002820D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009F9CC823136501002820D3 /* PBXTargetDependency */,
+			);
+			name = ChangeClickAreaButtonTests;
+			productName = ChangeClickAreaButtonTests;
+			productReference = 009F9CC623136501002820D3 /* ChangeClickAreaButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		009F9CD023136501002820D3 /* ChangeClickAreaButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009F9CE023136501002820D3 /* Build configuration list for PBXNativeTarget "ChangeClickAreaButtonUITests" */;
+			buildPhases = (
+				009F9CCD23136501002820D3 /* Sources */,
+				009F9CCE23136501002820D3 /* Frameworks */,
+				009F9CCF23136501002820D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009F9CD323136501002820D3 /* PBXTargetDependency */,
+			);
+			name = ChangeClickAreaButtonUITests;
+			productName = ChangeClickAreaButtonUITests;
+			productReference = 009F9CD123136501002820D3 /* ChangeClickAreaButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009F9CA6231364FF002820D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TeenageBeaconFireGroup;
+				TargetAttributes = {
+					009F9CAD231364FF002820D3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					009F9CC523136501002820D3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 009F9CAD231364FF002820D3;
+					};
+					009F9CD023136501002820D3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 009F9CAD231364FF002820D3;
+					};
+				};
+			};
+			buildConfigurationList = 009F9CA9231364FF002820D3 /* Build configuration list for PBXProject "ChangeClickAreaButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009F9CA5231364FF002820D3;
+			productRefGroup = 009F9CAF231364FF002820D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009F9CAD231364FF002820D3 /* ChangeClickAreaButton */,
+				009F9CC523136501002820D3 /* ChangeClickAreaButtonTests */,
+				009F9CD023136501002820D3 /* ChangeClickAreaButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		009F9CAC231364FF002820D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009F9CBE23136501002820D3 /* LaunchScreen.storyboard in Resources */,
+				009F9CBB23136501002820D3 /* Assets.xcassets in Resources */,
+				009F9CB9231364FF002820D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009F9CC423136501002820D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009F9CCF23136501002820D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009F9CAA231364FF002820D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009F9CE523136536002820D3 /* CustomButton.m in Sources */,
+				009F9CB6231364FF002820D3 /* ViewController.m in Sources */,
+				009F9CC123136501002820D3 /* main.m in Sources */,
+				009F9CB3231364FF002820D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009F9CC223136501002820D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009F9CCB23136501002820D3 /* ChangeClickAreaButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009F9CCD23136501002820D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009F9CD623136501002820D3 /* ChangeClickAreaButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009F9CC823136501002820D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009F9CAD231364FF002820D3 /* ChangeClickAreaButton */;
+			targetProxy = 009F9CC723136501002820D3 /* PBXContainerItemProxy */;
+		};
+		009F9CD323136501002820D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 009F9CAD231364FF002820D3 /* ChangeClickAreaButton */;
+			targetProxy = 009F9CD223136501002820D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009F9CB7231364FF002820D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009F9CB8231364FF002820D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009F9CBC23136501002820D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009F9CBD23136501002820D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009F9CD823136501002820D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		009F9CD923136501002820D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009F9CDB23136501002820D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeClickAreaButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdf.cn.v-zhanggaotong.ChangeClickAreaButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		009F9CDC23136501002820D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeClickAreaButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdf.cn.v-zhanggaotong.ChangeClickAreaButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		009F9CDE23136501002820D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeClickAreaButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdf.cn.v-zhanggaotong.ChangeClickAreaButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeClickAreaButton.app/ChangeClickAreaButton";
+			};
+			name = Debug;
+		};
+		009F9CDF23136501002820D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeClickAreaButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdf.cn.v-zhanggaotong.ChangeClickAreaButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeClickAreaButton.app/ChangeClickAreaButton";
+			};
+			name = Release;
+		};
+		009F9CE123136501002820D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeClickAreaButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdf.cn.v-zhanggaotong.ChangeClickAreaButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangeClickAreaButton;
+			};
+			name = Debug;
+		};
+		009F9CE223136501002820D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangeClickAreaButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xdf.cn.v-zhanggaotong.ChangeClickAreaButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangeClickAreaButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009F9CA9231364FF002820D3 /* Build configuration list for PBXProject "ChangeClickAreaButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009F9CD823136501002820D3 /* Debug */,
+				009F9CD923136501002820D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009F9CDA23136501002820D3 /* Build configuration list for PBXNativeTarget "ChangeClickAreaButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009F9CDB23136501002820D3 /* Debug */,
+				009F9CDC23136501002820D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009F9CDD23136501002820D3 /* Build configuration list for PBXNativeTarget "ChangeClickAreaButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009F9CDE23136501002820D3 /* Debug */,
+				009F9CDF23136501002820D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009F9CE023136501002820D3 /* Build configuration list for PBXNativeTarget "ChangeClickAreaButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009F9CE123136501002820D3 /* Debug */,
+				009F9CE223136501002820D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009F9CA6231364FF002820D3 /* Project object */;
+}
